@@ -23,7 +23,7 @@ A high-speed Discord client built to monitor queue-based systems, instantly secu
 
 ### Install dependencies
 
-pip install discord.py ddddocr requests python-dotenv
+```pip install discord.py ddddocr requests python-dotenv```
 
 ---
 
