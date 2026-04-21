@@ -23,7 +23,7 @@ A high-speed Discord client built to monitor queue-based systems, instantly secu
 
 ### Install dependencies
 
-```pip install discord.py ddddocr requests python-dotenv```
+pip install discord.py ddddocr requests python-dotenv
 
 ---
 
@@ -31,8 +31,8 @@ A high-speed Discord client built to monitor queue-based systems, instantly secu
 
 ### 1. Clone the Repository
 
-git clone https://github.com/jayaplayz12/mctiers-queuesniper.git  
-cd mctiers-queuesniper  
+```git clone https://github.com/jayaplayz12/MCTiers-Queue-Sniper.git```  
+```cd MCTiers-Queue-Sniper``` 
 
 ---
 
@@ -101,7 +101,24 @@ python main.py
 6. If captcha appears:
    - Downloads image
    - Uses OCR to solve it
-   - Sends solution automatically
+   - Sends solution automatically  
+
+---
+
+## 🤖 Captcha System
+
+Some queue systems use captcha images to prevent automation.
+
+This bot handles them automatically:
+
+- Detects captcha image attachments in messages  
+- Downloads the image instantly  
+- Uses OCR (Optical Character Recognition) to read the text  
+- Sends the detected solution back into the chat  
+- Continues the queue process automatically  
+
+If OCR succeeds → captcha is solved instantly  
+If OCR fails → it waits for the next attempt  
 
 ---
 
