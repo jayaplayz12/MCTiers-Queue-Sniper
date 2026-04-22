@@ -1,0 +1,4 @@
+discord.py
+ddddocr
+requests
+python-dotenv
